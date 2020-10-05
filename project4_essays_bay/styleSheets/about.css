@@ -1,0 +1,18 @@
+div#main{
+    width:40em;
+}
+p{
+    line-height: 2;
+    margin: 30px 0;
+    font-size:120%;
+}
+
+.jumbotron{
+    background-image:url("../images/155344241512380.jpg");
+    background-size: cover;
+    height: 20em;
+}
+
+footer {
+    margin-top:2em;
+}

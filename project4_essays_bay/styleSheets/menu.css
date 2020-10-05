@@ -1,0 +1,68 @@
+/*
+    Mykhailo Turchanov
+    12/16/19
+*/
+
+main {
+    margin: 0 auto 0 1em;
+}
+
+h2, h2 + p {
+    text-align: center;
+}
+
+#col1, #col3 {
+    height: 50em;
+}
+
+img#sandwichImg {
+    float: left;
+    width: 40%;
+    margin-left: 1.5em;
+    margin-top: 1em;
+    opacity: 0.9;
+    border-radius: 1em;
+}
+#absent {
+    text-align: center;
+    color: red;
+}
+
+ #sandwichTable {
+     float: left;
+     width:50%;
+     margin-bottom: 2em;
+     border-collapse: collapse;
+ }
+ td {
+     border: #519850 3px solid;
+     padding: .5em .5em .5em 1em;
+     background-color: #f7e8de;
+ }
+
+ th {
+     background-color: #2E1B11;
+     color: #fff;
+     padding: 1em;
+     border-radius: 0.7em 0.7em 0 0;
+ }
+
+h2 {
+    clear:both;
+}
+
+@media screen and (max-width:1283px) {
+    #col1, #col3 {
+        height: 0;
+        float:none;
+    }
+}
+
+    @media screen and (max-width:1251px) {
+        #sandwichTable {
+            width:100%;
+        }
+        main {
+            width:100%;
+        }
+    }

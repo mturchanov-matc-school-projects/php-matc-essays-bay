@@ -1,0 +1,117 @@
+/*
+    Mykhailo Turchanov
+    12/16/19
+*/
+
+main{
+    margin: 0 auto;
+    width: 78%;
+}
+
+h2, h2 + p {
+    text-align: center;
+}
+img[src*='formCat'] {
+    width: 150px;
+    float: right;
+    margin-top: 3em;
+}
+
+img[src*='formCat'] {
+    width: 150px;
+    float: right;
+    margin-top: 3em;
+}
+
+form {
+    background-image: linear-gradient(180deg, #EFD6A5 0%, #E19703 100%);
+    background-color: #EFD6A5;
+    border-radius: 1em;
+    padding: 1em;
+    border: 3px solid #970792;
+    box-shadow: 0em 1em 3em 0em black;
+    margin: 1em auto;
+    width: 70%;
+}
+
+input, select, textarea {
+    margin: 1em 0 2em;
+}
+
+input {
+    display: block;
+    width:50%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+}
+select#typeContact {
+    display: block;
+}
+
+legend {
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 16em;
+    border-radius: 1em;
+    border-color: #A87B50;
+}
+#buttonsToCenter {
+    text-align: center;
+}
+#additionalComments {
+    display: block;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding:1em;
+    display: inline-block;
+    text-align: center;
+    background-color: #970792;
+    color:#fff;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #000;
+    color:#E19703;
+}
+
+#col1, #col3 {
+    height: 50em;
+}
+
+@media screen and (max-width:930px ) {
+    img[src*='formCat'] {
+        display: none;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+@media screen and (max-width:1283px) {
+    #col1, #col3 {
+        height: 0;
+        float:none;
+    }
+}
+
+    @media screen and (max-width:930px ) {
+        img[src*='formCat'] {
+            display: none;
+        }
+        form {
+            width: 100%;
+        }
+        input {
+            width: 100%;
+        }
+    }

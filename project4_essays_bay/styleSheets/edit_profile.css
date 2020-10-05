@@ -1,0 +1,22 @@
+input[type="submit"]{
+    display:block;
+    margin: 0 auto;
+}
+
+h2{
+    margin: 2em;
+}
+
+.edit_p {
+    margin: .6em;
+}
+
+form.form-horizontal{
+    width: 40em;
+    background-color: #eee;
+    padding: 2em;
+    border: 2px solid #a3239e;
+    text-align: right;
+    border-radius: 30px;
+    margin: 0 auto;
+}

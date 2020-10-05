@@ -1,0 +1,90 @@
+
+
+
+
+.postPic{
+    width: 100%;
+    max-width: 250px;
+    max-height: 250px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 100%;
+    margin-top: 10em;
+}
+
+
+h2 {
+    clear: both;
+    text-align:center;
+    margin:2em;
+}
+
+h3{
+    font-weight: bold;
+}
+
+
+table{
+    margin: auto;
+    
+}
+td{
+    padding: 1em;
+}
+img{
+    max-width: 30em;
+    height: auto;
+    margin: 2em;
+}
+#profiles{
+    margin: 3em;
+}
+
+div#photo-wrapper{
+    background-color:#fff;
+}
+
+/*tutaj, robimy nowy poject----------------------------------------*/
+
+p.aboutUser {
+    text-align: left;
+    padding: 2em;
+    width: 32em;
+    line-height: 2;
+    font-family: times new roman;
+    letter-spacing: 1px;
+    font-size: 120%;
+    margin: 0 auto;
+}
+
+hr{
+    border:1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+h3.profile-about {
+    margin-top: 5em;
+}
+
+footer {
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+}
+
+
+
+
+
+
+
+
+
+
+

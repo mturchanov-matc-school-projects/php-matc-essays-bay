@@ -1,0 +1,351 @@
+body {
+    /*font: 400 15px Lato, sans-serif;*/
+    /*line-height: 1.8;*/
+    /*color: #818181;*/
+    background-color:#fff;
+    font-size: 20px;
+    color: #212529;
+    font-family: Lora,'Times New Roman',serif;
+}
+
+.jumbotron {
+    background-color: #F6F6F6;
+    color:#0E7D92;
+    font-family: Montserrat, sans-serif;
+    border-bottom: 2px solid #b043ac;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #5f5f5f54;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+
+
+header{
+    min-width: 496px;
+}
+
+.jumbotron p,.jumbotron h1 {
+    color:#fff;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000000 !important;
+    background-color: #ffffff47 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.jumbotron{
+    /*background-image:url("../images/pexels-photo-index.jpeg");*/
+    background-image:url("../images/papers3.jpg");
+    /*background-image:url("../images/pexels-photo-946250.jpeg");*/
+
+    background-size: cover;
+    height: 20em;
+}
+
+footer {
+    background-color: #e9e7f4e0;
+    color: #000000;
+    padding: 32px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------------------------*/
+
+.date{
+    float:left;
+}
+
+.wordsLen {
+    float: right;
+}
+.panel-default>.panel-heading{
+    padding:2em;
+    position:relative;
+    background-color:#c4d2f15e;
+    border: solid 1px #00000033;
+
+}
+
+small.tags{
+    float:left;
+    position:absolute;
+    top:0;
+    left:2em;
+}
+
+
+/*NAV-BAR-DROPDOWN*/
+
+.dropbtn {
+    text-transform: uppercase;
+    background-color: #4caf5000;
+    color: #eee;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a7a0a0eb;
+    min-width: 160px;
+    color: #000;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    /*background-color: #3e8e41;*/
+}
+
+
+element.style {
+    cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color:#54668d54;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+
+.home{
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.home a:hover{
+    color: #000000 !important;
+    background-color: #ffffff47 !important;
+}
+
+.panel-footer {
+    background-color: #e9eefa;
+    border: .4px solid #00000033;
+}
+
+a.home:hover{
+    color: #000000 !important;
+    background-color: #ffffff47 !important;
+}
+
+div.void-footer {
+    padding: 5em;
+    margin: 2em;
+}
+
+form#search input#s_bar {
+    background-color: #e1e1e18f;
+}
+
+@media only screen and (max-width:  450px) {
+    form#search input {
+    display: none;
+    }
+}
+
+div.panel-group {
+    width: 55em;
+    margin: 0 auto;
+}
+.panel-heading,.panel-group .panel {
+    border-radius: 50px 50px 0 0;
+    box-shadow: 0.2em 0.2em 0.2em #514d4d59;
+}
+
+h3 {
+    color: #0000009e;
+    font-weight: bold;
+    font-size: 130%;
+    letter-spacing: 1px;
+}
+
+h3.profile-about {
+    margin-top: 5em;
+}
+
+footer {
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+}
+
+footer {
+    background-color: #5b9ee21f;
+    color: #000000;
+}
+footer a:link {
+    color: #357eba;
+}
+footer a:visited {
+    color:#970792;
+}
+footer a:hover, p a:hover {
+    color:#F9A704;
+}
+
+footer {
+    clear: left;
+    border-top: #970792 2px solid;
+    padding: .5em;
+}
+
+.prof-info{
+    font-size: 130%;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    margin:0 0 0 0;
+    heigh: 3em;
+    height:5em;
+    margin: .5em 0 0 0;
+}
+
+.btn {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #970792;
+    padding: 1em;
+    margin: 2em;
+}
+
+.btn:hover{
+    color: #000000 !important;
+    background-color: #98bbd48c !important;
+}
+
+.glyphicon-chevron-up:before {
+    content: "\e113";
+    color: #970792;
+}
+
+hr.work_delim {
+    border:1px solid #e6e6e6;
+    margin: 30px 0;
+}
+
+div.panel-group {
+    width: 55em;
+    margin: 0 auto;
+}
+
+.panel-body *  {
+    font: 400 15px Lato, sans-serif;
+background-color: #fff;
+    font-size: 20px;
+    color: #000;
+    font-family: Lora,'Times New Roman',serif;
+}

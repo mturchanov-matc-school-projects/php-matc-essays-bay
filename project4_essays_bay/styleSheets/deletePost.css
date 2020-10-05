@@ -1,0 +1,21 @@
+.admin_pics{
+    width:200px;
+}
+
+#del{
+    width: 50px;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    width: 12em;
+    text-align:center;
+}
+.jumbotron{
+    background-image:url("../images/deletePost.jpeg");
+    background-size: cover;
+    height: 20em;
+}

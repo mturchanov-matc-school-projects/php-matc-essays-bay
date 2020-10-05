@@ -1,0 +1,35 @@
+main {
+    width: 65em;
+    margin: 0 auto 3em;
+
+}
+.align-items-center {
+    align-items: center!important;
+}
+
+.justify-content-between {
+    justify-content: space-between!important;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.list-columns {
+    column-count: 2;
+}
+
+ul.list-unstyled a {
+    margin: 0 1.5em;
+}
+
+
+@media only screen and (max-width:  1000px) {
+    .list-columns {
+        column-count: 1;
+    }
+
+    main {
+        width: 35em;
+    }
+}

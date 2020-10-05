@@ -1,0 +1,17 @@
+.form-control{
+    width: 30em;
+    margin: 0 auto;
+}
+
+.btn-default{
+    margin-bottom: 3em;
+}
+
+.btn{
+    width: 20%;
+}
+
+div#logRedirects{
+    margin-bottom: 10em;
+}
+
