@@ -1,6 +1,7 @@
 # Essays bay  
 
- Essays bay is a place where various essays are stored  
+ Essays bay is a place where various essays are stored.
+ The application that store diffenet kinds of essays. All essays are sorted by tags/author.
  
  * Multiuser
  * Essays can be sorted by various options such as by search/tags/user  
@@ -11,3 +12,6 @@
  * Users can edit their profiles  
  
  > *The actual view can be different because screenshots are zoomed out
+
+[**Video Demo of Basic Application Functionality**](https://youtu.be/GyG4rWoUwNA)  
+
